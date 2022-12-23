@@ -16,7 +16,7 @@ const Navbar = () => {
     }
 
   return (
-    <footer className='navbar'> Þ
+    <footer className='navbar'> 
         <nav className='navbarNav'>
             <ul className='navbarListItems'>
                 <li className='navbarListItem' onClick={() => navigate('/')}>
