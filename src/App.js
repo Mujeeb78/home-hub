@@ -23,7 +23,7 @@ const App = () => {
           <Route path='/profile' element={<PrivateRoute />}>
             <Route path='/profile' element={<Profile />} />
           </Route>
-          <Route path="/forgot-password" element={<ForgotPassword />} />
+          <Route path='/forgot-password' element={<ForgotPassword />} />
         </Routes>
         {/* Navbar */}
         <Navbar />

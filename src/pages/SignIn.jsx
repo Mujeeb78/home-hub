@@ -78,8 +78,8 @@ const SignIn = () => {
             />
           </div>
 
-          <Link to={'/forgot-pasword'} className='forgotPasswordLink'>
-            Forgot Password?
+          <Link to='/forgot-password' className='forgotPasswordLink'>
+            Forgot Password
           </Link>
 
           <div className="signInBar">
