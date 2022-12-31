@@ -140,7 +140,6 @@ const onSubmit = async (e) => {
     const formDataCopy = {
       ...formData,
       imgUrls,
-    
       timestamp: serverTimestamp(),
     }
 
