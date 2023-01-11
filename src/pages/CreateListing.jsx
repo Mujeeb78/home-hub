@@ -27,8 +27,7 @@ const CreateListing = () => {
     regularPrice: 0,
     discountedPrice: 0,
     images: {},
-    latitude: 0,
-    longitude: 0,
+ 
   });
 
   const {
@@ -43,8 +42,7 @@ const CreateListing = () => {
     regularPrice,
     discountedPrice,
     images,
-    latitude,
-    longitude,
+
   } = formData;
 
   const auth = getAuth();
