@@ -4,5 +4,5 @@
 ### Implemented email/password login as well as google sign-in.
 ### LoggedIn users can edit/delete their listings.
 
-[Live Website](https://home-hub-six.vercel.app/)
+[View Live Website](https://home-hub-six.vercel.app/)
 
