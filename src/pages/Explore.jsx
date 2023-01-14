@@ -1,13 +1,18 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import rentCategoryImage from "../assets/jpg/rentCategoryImage.jpg";
 import sellCategoryImage from "../assets/jpg/sellCategoryImage.jpg";
 import Slider from "../components/Slider";
 
+
 const Explore = () => {
+
+  const navigate = useNavigate()
   return (
     <div className="explore">
       <header>
         <p className="pageHeader">Explore</p>
+        
+          <button className="addListingCTABtn" onClick={() => navigate('/sign-in')}>Add your place</button>
       </header>
 
       <main>
