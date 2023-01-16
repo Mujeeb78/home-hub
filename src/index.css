@@ -327,11 +327,19 @@ header{
     margin-bottom: 10rem;
   }
 }
+
+@media (min-width: 425px) {
+  .addListingCTABtn {
+    width: 40%;
+  }
+}
+
 @media (max-height: 536) {
   .explore {
     margin-bottom: 10rem;
   }
 }
+
 
 .exploreHeading,
 .exploreCategoryHeading {
